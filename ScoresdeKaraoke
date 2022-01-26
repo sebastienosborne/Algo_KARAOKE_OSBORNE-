@@ -1,0 +1,76 @@
+class Player :
+    def __init__(self,joueur,score,scorenb):
+        self.__player = joueur
+        self.__scoresheet = score
+        self.__scoreamount = scorenb
+
+#scorenb = 1 par joueur 
+   
+class Karaoke : 
+    def __init__(self,chanson0,chanson1,chanson2,chanson3,chanson4):
+        self.__song = chanson0
+        self.__song1 = chanson1
+        self.__song2 = chanson2
+        self.__song3 = chanson3
+        self.__song4 = chanson4
+
+    def getChanson(self):
+        return self.__song
+
+    def getChanson1(self):
+        return self.__song1
+
+    def getChanson2(self):
+        return self.__song2
+
+    def getChanson3(self):
+        return self.__song3
+
+    def getChanson4(self):
+        return self.__song4
+
+#ici le programme principal
+
+karaoke = {song : 0, 4}
+
+def affiche(self):
+        print (str(self.karaoke))
+        
+songs = int(input("Préparez vous, la prochaine chanson va commencer\n"))
+
+ancien_Score =< 50
+nouveau_Score =< 50
+maximum_Score = 100
+
+    if (score = 0):
+        print("Le joueur n'as pas été enregistré")
+
+    if (nouveau_Score => ancien_Score):
+        print(nouveau_Score)
+    
+    else if (nouveau_Score =< ancien_Score):
+        print(ancien_Score)
+       
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+        
+
+
+
+
+
+
+
+
+
+
